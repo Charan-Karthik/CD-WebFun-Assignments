@@ -1,0 +1,48 @@
+*{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color:whitesmoke;
+    font-family: cursive;
+}
+
+.rowV1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rowV2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#one{
+    background-color:#E0115F;
+}
+
+#two{
+    background-color: #046307;
+    margin: 50px 0px;
+}
+
+
+
+#three{
+    background-color: #0f52ba;
+}
+
+p{
+    text-align: center;
+    color:whitesmoke;
+    font-family: cursive;
+}
+
+img.octocat {
+    height: 200px;
+}
+
+.background{
+    background-color: white;
+}
