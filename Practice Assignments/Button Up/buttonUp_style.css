@@ -1,0 +1,29 @@
+/* Couldn't quite get all the colors exactly right, but I got as close as possible. */
+
+#b1{
+    color:rgb(56, 170, 134);
+    background-color: rgb(236, 233, 233);
+    text-align: center;
+    border: 1px solid rgb(56, 170, 134);
+    border-radius: 16px;
+    width: 100px;
+}
+
+#b2{
+    color:white;
+    text-align: center;
+    background-color:rgb(0, 208, 139);
+    border-radius:50%;
+    border: none;
+    height: 20px;
+    width: 20px;
+}
+
+#b3{
+    color: white;
+    background-color: rgb(97, 97, 245);
+    text-align: center;
+    border: 1.5px solid black;
+    box-shadow: 1px 1px black;
+    width: 120px;
+}
