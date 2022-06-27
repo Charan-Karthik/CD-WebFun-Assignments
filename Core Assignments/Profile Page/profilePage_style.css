@@ -111,6 +111,12 @@
     width: 500px;
     background-color: rgb(67, 67, 67);
     color: white;
+    display: flex;
+    align-items: center;
+}
+
+#education{
+    margin-left: 15px;
 }
 
 #date{
@@ -135,6 +141,9 @@
     color: black;
     text-align: center;
     margin-right: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title{
@@ -157,6 +166,7 @@
 .buttons{
     border-radius: 50%;
     height: 30px;
+    margin-left: 15px;
 }
 
 .profile-pics{
@@ -168,4 +178,11 @@
 .icons{
     border-radius: 50%;
     height: 20px;
+}
+
+.organization{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: left;
 }
