@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 55px;
+}
+
+.nav-title{
+    color:white;
+    margin-left: 110px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links > li{
+    margin-left: 20px;
+}
+
+.links {
+    text-decoration: none;
+    color: grey;
+}
+
+.active{
+    color: white;
+}
+
+.btn{
+    background-color: rgb(0, 149, 162);
+    color: white;
+    padding: 5px;
+    margin-left: 300px;
+}
+
+.container{
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.col1{
+    height: 90vh;
+    width: 500px;
+    position: relative;
+}
+
+.col2{
+    height: 90vh;
+    width: 225px;
+    position: relative;
+    left: 100px;
+}
+
+.userCard{
+    height: 300px;
+    width: 500px;
+    border: 2px solid lightgray;
+}
+
+.background{
+    height:100px;
+    width: 500px;
+    background-color: rgb(11, 147, 174);
+}
+
+#jane{
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.profileContent{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.experience{
+    height: 300px;
+    width: 500px;
+    margin-top: 50px;
+    border: 2px solid lightgray;
+}
+
+#indent{
+    margin: 15px;
+}
+
+.outline{
+    height: 50px;
+    width: 500px;
+    background-color: rgb(67, 67, 67);
+    color: white;
+}
+
+#date{
+    color: grey;
+}
+
+.requests{
+    height: 175px;
+    width: 225px;
+    border: 2px solid lightgray;
+}
+
+.connections{
+    height: 300px;
+    width: 225px;
+    margin-top: 50px;
+    border: 2px solid lightgray;
+}
+
+.circle{
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    margin-right: 3px;
+}
+
+.title{
+    height: 50px;
+    width: 225px;
+    background-color: rgb(67, 67, 67);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#more{
+    border: 2px solid lightgray;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.buttons{
+    border-radius: 50%;
+    height: 30px;
+}
+
+.profile-pics{
+    border-radius: 50%;
+    height: 40px;
+    margin: 5px;
+}
+
+.icons{
+    border-radius: 50%;
+    height: 20px;
+}
