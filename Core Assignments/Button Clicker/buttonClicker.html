@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="buttonClicker_style.css"> 
+</head>
+<body>
+    <div class="popupContainer">
+        <div class="popup">
+            <h4>This page says</h4>
+            <br>
+            <h5>Ninja was liked</h5>
+            <br>
+            <div>
+                <h4 id="popup">Ok</h4>
+            </div>
+        </div>
+    </div>
+
+    <div id="header">
+        <h1>Dojonary</h1>
+        <input id="search" type="text" placeholder="Search">
+        <button class="btn" onclick="signInOut()">Login</button>
+    </div>
+
+    <div class="container">
+        <div id="col1">
+            <div class="ninja">
+                <div class="ninjaCol1">
+                    <h1>ninja</h1>
+                    <h3><em>noun</em></h3>
+                    <h4>Plural: <em>ninjas</em></h4>
+                    <br>
+                    <button class="likeBtn" onclick="like()">13 Likes</button>
+                </div>
+                <div class="ninjaCol2">
+                    <h3>A practicioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></h3>
+                </div>
+            </div>
+            <div class="ninja">
+                <div class="ninjaCol1">
+                    <h1>ninja</h1>
+                    <h3><em>noun</em></h3>
+                    <h4>Plural: <em>ninjas</em></h4>
+                    <br>
+                    <button class="likeBtn" onclick="like()">37 Likes</button>
+                </div>
+                <div class="ninjaCol2">
+                    <h3>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</h3>
+                </div>
+            </div>
+        </div>
+        <div id="col2">
+            <div id="secondary">
+                <h1>Dojonary is defined by YOU</h1>
+                <button class="addDef" onclick="removeButton()">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="buttonClicker_script.js"></script>
+</body>
+</html>
