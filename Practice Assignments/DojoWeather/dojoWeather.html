@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="dojoWeather_style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1 id="header">DojoWeather</h1>
+            <ul id="list1">
+                <li onclick="message()">Burbank</li>
+                <li onclick="message()">Chicago</li>
+                <li onclick="message()">Dallas</li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container2">
+        <div id="top">
+            <h1>San Jose</h1>
+            <div class="tempSelect">
+                <h3 id="formatting">show temperature in</h3>
+                <select>
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div id="bottom">
+            <div class="dayWeather">
+                <h1>Today</h1>
+                <br>
+                <img src="assets/some_rain.png" alt="rain">
+                <br>
+                <h3>some rain</h3>
+                <br>
+                <div class="temps">
+                    <h3 class="high">24°</h3>
+                    <h3 class="low">18°</h3>
+                </div>
+                <br>
+            </div>
+            <div class="dayWeather">
+                <h1>Tomorrow</h1>
+                <br>
+                <img src="assets/some_sun.png" alt="sun">
+                <br>
+                <h3>some sun</h3>
+                <br>
+                <div class="temps">
+                    <h3 class="high">27°</h3>
+                    <h3 class="low">19°</h3>
+                </div>
+                <br>
+            </div>
+            <div class="dayWeather">
+                <h1>Friday</h1>
+                <br>
+                <img src="assets/some_clouds.png" alt="gray cloud">
+                <br>
+                <h3>some clouds</h3>
+                <br>
+                <div class="temps">
+                    <h3 class="high">21°</h3>
+                    <h3 class="low">16°</h3>
+                </div>
+                <br>
+            </div>
+            <div class="dayWeather">
+                <h1>Saturday</h1>
+                <br>
+                <img src="assets/some_sun.png" alt="sun">
+                <br>
+                <h3>some sun</h3>
+                <br>
+                <div class="temps">
+                    <h3 class="high">26°</h3>
+                    <h3 class="low">21°</h3>
+                </div>
+                <br>
+            </div>
+        </div>
+
+        <br>
+
+        <div id="cookies">
+            <div>
+                <img src="assets/cookie.png" alt="cookie" id="cookiePic">
+            </div>
+            <div id="cookieText">
+                <h2>Stop! Cookie time</h2>
+                <h3>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features, and to analyse our traffic. <a href="">Read more...</a></h3>
+            </div>
+            <div>
+                <button id="btn" onclick="remove('#cookies')">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="dojoWeather_script.js"></script>
+</body>
+</html>
